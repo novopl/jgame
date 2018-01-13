@@ -2,12 +2,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.badlogicgames</groupId>
-	<artifactId>lwjgl3-tests</artifactId>
+	<groupId>pl.novocode</groupId>
+	<artifactId>jgame</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>LWJGL 3 Tests</name>
+	<name>jGame</name>
 
 	<repositories>
 		<repository>
@@ -21,7 +21,7 @@
 			</snapshots>
 		</repository>
 	</repositories>
-	
+
 	<properties>
 		<lwjgl.version>3.0.0a</lwjgl.version>
 	</properties>

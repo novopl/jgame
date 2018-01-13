@@ -9,7 +9,7 @@ import static org.lwjgl.glfw.GLFW.*;
 import static org.lwjgl.opengl.GL11.*;
 import static org.lwjgl.system.MemoryUtil.*;
  
-public class Lwjgl3Test {
+public class Main {
  
     // We need to strongly reference callback instances.
     private GLFWErrorCallback errorCallback;
@@ -110,7 +110,6 @@ public class Lwjgl3Test {
  
     public static void main(String[] args) {
     	SharedLibraryLoader.load();
-        new Lwjgl3Test().run();
+        new Main().run();
     }
- 
 }
